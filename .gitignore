@@ -1,0 +1,4 @@
+# dependencies
+/node_modules
+/coctail-app/node_modules
+/coctail-api/node_modules
