@@ -9,12 +9,6 @@ app.get("/api/cocktail", (req, res) => {
     ? `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${req.query.search}`
     : "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 
-  // let requestURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
-
-  // if (req.query.search != null) {
-  //   requestURL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${req.query.search}`;
-  // }
-
   request(requestURL, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       const parsedBody = JSON.parse(body);

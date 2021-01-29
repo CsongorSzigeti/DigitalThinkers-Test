@@ -1,0 +1,26 @@
+.cocktail-card {
+  background-color: transparent;
+  margin: 3rem;
+  background-color: #9efffe;
+  border-radius: 4rem;
+}
+
+.cocktail-card-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrap-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cocktail-instructions {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.cocktail-thumbnail {
+  border-radius: 4rem;
+}

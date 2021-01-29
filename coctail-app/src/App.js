@@ -7,8 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hey! I'm a React App for DigitalThinkers</h1>
-        <CocktailHandler />
+        <div className="scroll-container">
+          <h1 className="label">Hey! I'm a React App for DigitalThinkers</h1>
+          <CocktailHandler />
+        </div>
       </div>
     );
   }
